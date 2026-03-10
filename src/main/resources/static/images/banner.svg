@@ -1,0 +1,129 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 480" width="800" height="480">
+  <!-- Background -->
+  <rect width="800" height="480" fill="white"/>
+  
+  <!-- Ground line -->
+  <line x1="50" y1="410" x2="750" y2="410" stroke="#222" stroke-width="3" stroke-linecap="round"/>
+  
+  <!-- Speech bubble with bar chart (top left) -->
+  <rect x="60" y="60" width="170" height="140" rx="12" ry="12" fill="white" stroke="#222" stroke-width="3"/>
+  <polygon points="100,200 125,200 115,225" fill="white" stroke="#222" stroke-width="3" stroke-linejoin="round"/>
+  <polygon points="100,200 125,200 115,222" fill="white"/>
+  
+  <!-- Bar chart inside bubble -->
+  <rect x="85" y="155" width="25" height="30" fill="#a8d832" stroke="#222" stroke-width="2"/>
+  <rect x="120" y="130" width="25" height="55" fill="#a8d832" stroke="#222" stroke-width="2"/>
+  <rect x="155" y="105" width="25" height="80" fill="#222" stroke="#222" stroke-width="2"/>
+  <!-- Chart axes -->
+  <line x1="80" y1="185" x2="195" y2="185" stroke="#222" stroke-width="2"/>
+  <line x1="80" y1="95" x2="80" y2="185" stroke="#222" stroke-width="2"/>
+  <!-- Growth arrow -->
+  <line x1="85" y1="170" x2="175" y2="105" stroke="#222" stroke-width="2.5"/>
+  <polygon points="175,105 165,108 169,118" fill="#222"/>
+  <!-- Dollar sign on chart -->
+  <text x="78" y="88" font-family="Arial" font-size="20" font-weight="bold" fill="#222">$</text>
+
+  <!-- Money bag 1 (left, back) -->
+  <ellipse cx="200" cy="380" rx="60" ry="70" fill="#b0b8c8" stroke="#222" stroke-width="3"/>
+  <line x1="200" y1="310" x2="200" y2="295" stroke="#222" stroke-width="3"/>
+  <ellipse cx="200" cy="290" rx="18" ry="12" fill="#b0b8c8" stroke="#222" stroke-width="3"/>
+  <text x="177" y="390" font-family="Arial" font-size="38" font-weight="bold" fill="#a8d832" stroke="#222" stroke-width="1.5">$</text>
+  
+  <!-- Money bag 2 (middle) -->
+  <ellipse cx="295" cy="385" rx="65" ry="72" fill="#c0c8d8" stroke="#222" stroke-width="3"/>
+  <line x1="295" y1="313" x2="295" y2="298" stroke="#222" stroke-width="3"/>
+  <ellipse cx="295" cy="293" rx="20" ry="13" fill="#c0c8d8" stroke="#222" stroke-width="3"/>
+  <text x="270" y="397" font-family="Arial" font-size="40" font-weight="bold" fill="#a8d832" stroke="#222" stroke-width="1.5">$</text>
+  
+  <!-- Money bag 3 (right of bags, smaller) -->
+  <ellipse cx="390" cy="390" rx="50" ry="55" fill="#a8b0c0" stroke="#222" stroke-width="3"/>
+  <line x1="390" y1="335" x2="390" y2="322" stroke="#222" stroke-width="3"/>
+  <ellipse cx="390" cy="318" rx="15" ry="10" fill="#a8b0c0" stroke="#222" stroke-width="3"/>
+  <text x="370" y="400" font-family="Arial" font-size="34" font-weight="bold" fill="#a8d832" stroke="#222" stroke-width="1.5">$</text>
+
+  <!-- Plant pot left -->
+  <rect x="490" y="360" width="50" height="50" rx="4" fill="#c0c0c0" stroke="#222" stroke-width="2.5"/>
+  <rect x="485" y="355" width="60" height="12" rx="3" fill="#b0b0b0" stroke="#222" stroke-width="2.5"/>
+  <!-- Plant stems and leaves left -->
+  <line x1="515" y1="355" x2="515" y2="295" stroke="#222" stroke-width="2.5"/>
+  <ellipse cx="490" cy="320" rx="22" ry="14" fill="#a8d832" stroke="#222" stroke-width="2" transform="rotate(-30 490 320)"/>
+  <ellipse cx="540" cy="310" rx="22" ry="14" fill="#a8d832" stroke="#222" stroke-width="2" transform="rotate(30 540 310)"/>
+  <ellipse cx="505" cy="295" rx="20" ry="13" fill="#a8d832" stroke="#222" stroke-width="2" transform="rotate(-15 505 295)"/>
+
+  <!-- Plant pot right -->
+  <rect x="680" y="360" width="50" height="50" rx="4" fill="#c0c0c0" stroke="#222" stroke-width="2.5"/>
+  <rect x="675" y="355" width="60" height="12" rx="3" fill="#b0b0b0" stroke="#222" stroke-width="2.5"/>
+  <!-- Plant stems and leaves right -->
+  <line x1="705" y1="355" x2="705" y2="285" stroke="#222" stroke-width="2.5"/>
+  <ellipse cx="680" cy="310" rx="25" ry="15" fill="#a8d832" stroke="#222" stroke-width="2" transform="rotate(-25 680 310)"/>
+  <ellipse cx="732" cy="298" rx="25" ry="15" fill="#a8d832" stroke="#222" stroke-width="2" transform="rotate(25 732 298)"/>
+  <ellipse cx="695" cy="285" rx="23" ry="14" fill="#a8d832" stroke="#222" stroke-width="2" transform="rotate(-10 695 285)"/>
+
+  <!-- Person - legs -->
+  <rect x="570" y="330" width="28" height="80" rx="10" fill="#111"/>
+  <rect x="608" y="330" width="28" height="80" rx="10" fill="#111"/>
+  <!-- Shoes -->
+  <ellipse cx="584" cy="412" rx="20" ry="10" fill="#111"/>
+  <ellipse cx="622" cy="412" rx="20" ry="10" fill="#111"/>
+  <!-- White shoe detail right -->
+  <ellipse cx="628" cy="408" rx="10" ry="7" fill="white" stroke="#111" stroke-width="1"/>
+  
+  <!-- Person - skirt/body lower -->
+  <ellipse cx="600" cy="300" rx="55" ry="45" fill="#111" stroke="#222" stroke-width="2"/>
+  
+  <!-- Person - torso -->
+  <rect x="555" y="215" width="90" height="100" rx="20" fill="#a8d832" stroke="#222" stroke-width="2.5"/>
+  
+  <!-- Person - neck -->
+  <rect x="588" y="195" width="24" height="25" rx="8" fill="#f5c8a0" stroke="#222" stroke-width="2"/>
+  
+  <!-- Person - head -->
+  <ellipse cx="600" cy="168" rx="42" ry="45" fill="#f5c8a0" stroke="#222" stroke-width="2.5"/>
+  
+  <!-- Hair -->
+  <path d="M 558 155 Q 570 105 600 108 Q 630 105 642 155 Q 648 140 642 120 Q 625 85 600 88 Q 575 85 558 120 Z" fill="#111"/>
+  <!-- Ponytail -->
+  <path d="M 638 130 Q 660 140 655 175 Q 648 160 640 155 Z" fill="#111"/>
+  <!-- Hair band -->
+  <ellipse cx="647" cy="143" rx="8" ry="8" fill="#a8d832" stroke="#222" stroke-width="1.5"/>
+  
+  <!-- Face features -->
+  <!-- Eyes -->
+  <ellipse cx="585" cy="165" rx="5" ry="6" fill="#111"/>
+  <ellipse cx="612" cy="165" rx="5" ry="6" fill="#111"/>
+  <ellipse cx="586" cy="163" rx="2" ry="2" fill="white"/>
+  <ellipse cx="613" cy="163" rx="2" ry="2" fill="white"/>
+  <!-- Smile -->
+  <path d="M 590 185 Q 600 193 612 185" stroke="#222" stroke-width="2" fill="none" stroke-linecap="round"/>
+  
+  <!-- Person - right arm holding watering can -->
+  <path d="M 560 240 Q 510 235 480 255 Q 465 263 450 270" stroke="#a8d832" stroke-width="28" stroke-linecap="round" fill="none"/>
+  <path d="M 560 240 Q 510 235 480 255 Q 465 263 450 270" stroke="#222" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+  
+  <!-- Hand -->
+  <ellipse cx="448" cy="272" rx="16" ry="13" fill="#f5c8a0" stroke="#222" stroke-width="2"/>
+  
+  <!-- Watering can body -->
+  <ellipse cx="415" cy="285" rx="45" ry="35" fill="#d0d8e8" stroke="#222" stroke-width="3"/>
+  <!-- Watering can handle -->
+  <path d="M 420 255 Q 460 240 465 265" stroke="#222" stroke-width="3" fill="none"/>
+  <!-- Watering can spout -->
+  <line x1="370" y1="285" x2="310" y2="310" stroke="#222" stroke-width="3"/>
+  <line x1="310" y1="310" x2="290" y2="330" stroke="#222" stroke-width="3"/>
+  <!-- Spout head -->
+  <ellipse cx="284" cy="334" rx="12" ry="8" fill="#d0d8e8" stroke="#222" stroke-width="2.5" transform="rotate(-20 284 334)"/>
+  
+  <!-- Water droplets -->
+  <ellipse cx="270" cy="355" rx="5" ry="7" fill="#a8d832" stroke="#222" stroke-width="1.5" transform="rotate(-20 270 355)"/>
+  <ellipse cx="255" cy="345" rx="5" ry="7" fill="#a8d832" stroke="#222" stroke-width="1.5" transform="rotate(-20 255 345)"/>
+  <ellipse cx="260" cy="370" rx="4" ry="6" fill="#a8d832" stroke="#222" stroke-width="1.5" transform="rotate(-20 260 370)"/>
+  <ellipse cx="242" cy="360" rx="4" ry="6" fill="#a8d832" stroke="#222" stroke-width="1.5" transform="rotate(-20 242 360)"/>
+  <ellipse cx="248" cy="380" rx="4" ry="6" fill="#a8d832" stroke="#222" stroke-width="1.5" transform="rotate(-20 248 380)"/>
+  <ellipse cx="235" cy="375" rx="3" ry="5" fill="#a8d832" stroke="#222" stroke-width="1.5" transform="rotate(-20 235 375)"/>
+  
+  <!-- Person - left arm (at side) -->
+  <path d="M 645 250 Q 660 280 658 310" stroke="#a8d832" stroke-width="26" stroke-linecap="round" fill="none"/>
+  <path d="M 645 250 Q 660 280 658 310" stroke="#222" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+  <!-- Left hand -->
+  <ellipse cx="658" cy="315" rx="15" ry="12" fill="#f5c8a0" stroke="#222" stroke-width="2"/>
+</svg>
