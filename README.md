@@ -26,6 +26,7 @@ There are two roles: **user** and **admin**.
 - **Password Reset** - Forgot password functionality with email reset link
 - **Activity/Audit Logging** - Track all account activities for security
 - **User Settings** - Configure daily limits and view activity logs
+- **User Feedback** - Submit star-rated feedback and suggestions to help improve the app
 
 ## Default Login Credentials
 
@@ -121,6 +122,9 @@ Access the application at [http://localhost:8080](http://localhost:8080)
 - `GET /transfer/recipient` - Manage recipients
 - `GET /transfer/toSomeoneElse` - Transfer to recipient
 - `GET /appointment/create` - Create appointment
+- `POST /appointment/create` - Submit appointment
+- `GET /feedback/create` - Feedback submission form
+- `POST /feedback/create` - Submit feedback (subject, star rating 1–5, message)
 - `GET /user/settings` - User settings
 - `GET /user/activity` - Activity log
 - `GET /statement/form` - Statement download form
